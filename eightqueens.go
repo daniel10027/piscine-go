@@ -60,8 +60,8 @@ func CanPlace(target Point, board []Point) bool {
 	return true
 }
 func CanAttack(a, b Point) bool {
-	//fmt.Print(a, b)
+	fmt.Print(a, b)
 	answer := a.x == b.x || a.y == b.y || math.Abs(float64(a.y-b.y)) == math.Abs(float64(a.x-b.x))
-	//fmt.Print(a, b)
+	fmt.Print(a, b)
 	return answer
 }
