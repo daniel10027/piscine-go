@@ -1,4 +1,3 @@
-
 package piscine
 
 import ("fmt")
